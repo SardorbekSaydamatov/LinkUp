@@ -6,6 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84F399BE2CE1E0E400C55918 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F399B72CE1E0E400C55918 /* Preview Assets.xcassets */; };
+		84F399BF2CE1E0E400C55918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F399B92CE1E0E400C55918 /* Assets.xcassets */; };
+		84F399C02CE1E0E400C55918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399BA2CE1E0E400C55918 /* ContentView.swift */; };
+		84F399C12CE1E0E400C55918 /* LinkUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399BC2CE1E0E400C55918 /* LinkUpApp.swift */; };
+		84F399E32CE1E4E200C55918 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399E22CE1E4E200C55918 /* LaunchScreen.swift */; };
+		84F399E82CE20EDF00C55918 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399E72CE20EDF00C55918 /* SubmitButton.swift */; };
+		84F399F12CE2159100C55918 /* EnterPhonenumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */; };
+		84F399F62CE2204200C55918 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 84F399F52CE2204200C55918 /* CountryPicker */; };
+		84F399F82CE234B200C55918 /* YTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399F72CE234B200C55918 /* YTextField.swift */; };
+		84F39A172CE237F800C55918 /* CostumTextFieldWithKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A162CE237F800C55918 /* CostumTextFieldWithKeyboard.swift */; };
+		84F39A192CE2381900C55918 /* CostumKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A182CE2381900C55918 /* CostumKeyboardView.swift */; };
+		84F39A292CE317B600C55918 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A282CE317B600C55918 /* OTPView.swift */; };
+		84F39A2C2CE327E900C55918 /* SetUpProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A2B2CE327E900C55918 /* SetUpProfileView.swift */; };
+		84F39A2E2CE350F200C55918 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A2D2CE350F200C55918 /* ImagePicker.swift */; };
+		84F39A312CE3527300C55918 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 84F39A302CE3527300C55918 /* CropViewController */; };
+		84F39A332CE3527300C55918 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 84F39A322CE3527300C55918 /* TOCropViewController */; };
+		84F39A372CE355B700C55918 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A362CE355B700C55918 /* ContactsView.swift */; };
+		84F39A392CE355C400C55918 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A382CE355C400C55918 /* ChatsView.swift */; };
+		84F39A3B2CE355D800C55918 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A3A2CE355D800C55918 /* MoreView.swift */; };
+		84F39A3D2CE355E000C55918 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A3C2CE355E000C55918 /* TabView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		84F3999B2CE1E04A00C55918 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,20 +50,33 @@
 		84F399892CE1E04800C55918 /* LinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F3999A2CE1E04A00C55918 /* LinkUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F399A42CE1E04A00C55918 /* LinkUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F399B72CE1E0E400C55918 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84F399B92CE1E0E400C55918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F399BA2CE1E0E400C55918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84F399BB2CE1E0E400C55918 /* LinkUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinkUp.entitlements; sourceTree = "<group>"; };
+		84F399BC2CE1E0E400C55918 /* LinkUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkUpApp.swift; sourceTree = "<group>"; };
+		84F399E22CE1E4E200C55918 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		84F399E72CE20EDF00C55918 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhonenumberView.swift; sourceTree = "<group>"; };
+		84F399F72CE234B200C55918 /* YTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTextField.swift; sourceTree = "<group>"; };
+		84F39A162CE237F800C55918 /* CostumTextFieldWithKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumTextFieldWithKeyboard.swift; sourceTree = "<group>"; };
+		84F39A182CE2381900C55918 /* CostumKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumKeyboardView.swift; sourceTree = "<group>"; };
+		84F39A282CE317B600C55918 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		84F39A2B2CE327E900C55918 /* SetUpProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpProfileView.swift; sourceTree = "<group>"; };
+		84F39A2D2CE350F200C55918 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		84F39A362CE355B700C55918 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		84F39A382CE355C400C55918 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		84F39A3A2CE355D800C55918 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		84F39A3C2CE355E000C55918 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84F3998B2CE1E04800C55918 /* LinkUp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LinkUp;
-			sourceTree = "<group>";
-		};
-		84F3999D2CE1E04A00C55918 /* LinkUpTests */ = {
+		84F399D12CE1E10100C55918 /* LinkUpTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LinkUpTests;
 			sourceTree = "<group>";
 		};
-		84F399A72CE1E04A00C55918 /* LinkUpUITests */ = {
+		84F399D52CE1E10400C55918 /* LinkUpUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LinkUpUITests;
 			sourceTree = "<group>";
@@ -52,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F399F62CE2204200C55918 /* CountryPicker in Frameworks */,
+				84F39A332CE3527300C55918 /* TOCropViewController in Frameworks */,
+				84F39A312CE3527300C55918 /* CropViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +114,9 @@
 		84F399802CE1E04800C55918 = {
 			isa = PBXGroup;
 			children = (
-				84F3998B2CE1E04800C55918 /* LinkUp */,
-				84F3999D2CE1E04A00C55918 /* LinkUpTests */,
-				84F399A72CE1E04A00C55918 /* LinkUpUITests */,
+				84F399BD2CE1E0E400C55918 /* LinkUp */,
+				84F399D12CE1E10100C55918 /* LinkUpTests */,
+				84F399D52CE1E10400C55918 /* LinkUpUITests */,
 				84F3998A2CE1E04800C55918 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +129,111 @@
 				84F399A42CE1E04A00C55918 /* LinkUpUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84F399B82CE1E0E400C55918 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84F399B72CE1E0E400C55918 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84F399BD2CE1E0E400C55918 /* LinkUp */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A152CE237DC00C55918 /* Modifiers */,
+				84F399E42CE20E9B00C55918 /* Utilities */,
+				84F399DD2CE1E13A00C55918 /* Models */,
+				84F399DE2CE1E13D00C55918 /* ViewModels */,
+				84F399DF2CE1E14000C55918 /* Views */,
+				84F399B82CE1E0E400C55918 /* Preview Content */,
+				84F399B92CE1E0E400C55918 /* Assets.xcassets */,
+				84F399BA2CE1E0E400C55918 /* ContentView.swift */,
+				84F399BB2CE1E0E400C55918 /* LinkUp.entitlements */,
+				84F399BC2CE1E0E400C55918 /* LinkUpApp.swift */,
+			);
+			path = LinkUp;
+			sourceTree = "<group>";
+		};
+		84F399DD2CE1E13A00C55918 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84F399DE2CE1E13D00C55918 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84F399DF2CE1E14000C55918 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A342CE3557500C55918 /* TabView */,
+				84F39A2A2CE327D500C55918 /* SetUpProfile */,
+				84F399EF2CE2155300C55918 /* Authentication */,
+				84F399E22CE1E4E200C55918 /* LaunchScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84F399E42CE20E9B00C55918 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				84F399E72CE20EDF00C55918 /* SubmitButton.swift */,
+				84F399F72CE234B200C55918 /* YTextField.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		84F399EF2CE2155300C55918 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */,
+				84F39A282CE317B600C55918 /* OTPView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		84F39A152CE237DC00C55918 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A162CE237F800C55918 /* CostumTextFieldWithKeyboard.swift */,
+				84F39A182CE2381900C55918 /* CostumKeyboardView.swift */,
+				84F39A2D2CE350F200C55918 /* ImagePicker.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		84F39A2A2CE327D500C55918 /* SetUpProfile */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A2B2CE327E900C55918 /* SetUpProfileView.swift */,
+			);
+			path = SetUpProfile;
+			sourceTree = "<group>";
+		};
+		84F39A342CE3557500C55918 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A3C2CE355E000C55918 /* TabView.swift */,
+				84F39A352CE355A800C55918 /* TabViews */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		84F39A352CE355A800C55918 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A362CE355B700C55918 /* ContactsView.swift */,
+				84F39A382CE355C400C55918 /* ChatsView.swift */,
+				84F39A3A2CE355D800C55918 /* MoreView.swift */,
+			);
+			path = TabViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +251,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				84F3998B2CE1E04800C55918 /* LinkUp */,
-			);
 			name = LinkUp;
 			packageProductDependencies = (
+				84F399F52CE2204200C55918 /* CountryPicker */,
+				84F39A302CE3527300C55918 /* CropViewController */,
+				84F39A322CE3527300C55918 /* TOCropViewController */,
 			);
 			productName = LinkUp;
 			productReference = 84F399892CE1E04800C55918 /* LinkUp.app */;
@@ -131,7 +275,7 @@
 				84F3999C2CE1E04A00C55918 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				84F3999D2CE1E04A00C55918 /* LinkUpTests */,
+				84F399D12CE1E10100C55918 /* LinkUpTests */,
 			);
 			name = LinkUpTests;
 			packageProductDependencies = (
@@ -154,7 +298,7 @@
 				84F399A62CE1E04A00C55918 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				84F399A72CE1E04A00C55918 /* LinkUpUITests */,
+				84F399D52CE1E10400C55918 /* LinkUpUITests */,
 			);
 			name = LinkUpUITests;
 			packageProductDependencies = (
@@ -195,6 +339,10 @@
 			);
 			mainGroup = 84F399802CE1E04800C55918;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				84F399F42CE2204200C55918 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+				84F39A2F2CE3527300C55918 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 84F3998A2CE1E04800C55918 /* Products */;
 			projectDirPath = "";
@@ -212,6 +360,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F399BE2CE1E0E400C55918 /* Preview Assets.xcassets in Resources */,
+				84F399BF2CE1E0E400C55918 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +386,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F399C02CE1E0E400C55918 /* ContentView.swift in Sources */,
+				84F399E82CE20EDF00C55918 /* SubmitButton.swift in Sources */,
+				84F39A392CE355C400C55918 /* ChatsView.swift in Sources */,
+				84F39A192CE2381900C55918 /* CostumKeyboardView.swift in Sources */,
+				84F399F12CE2159100C55918 /* EnterPhonenumberView.swift in Sources */,
+				84F399C12CE1E0E400C55918 /* LinkUpApp.swift in Sources */,
+				84F39A292CE317B600C55918 /* OTPView.swift in Sources */,
+				84F39A3B2CE355D800C55918 /* MoreView.swift in Sources */,
+				84F39A2C2CE327E900C55918 /* SetUpProfileView.swift in Sources */,
+				84F39A2E2CE350F200C55918 /* ImagePicker.swift in Sources */,
+				84F39A3D2CE355E000C55918 /* TabView.swift in Sources */,
+				84F39A372CE355B700C55918 /* ContactsView.swift in Sources */,
+				84F399E32CE1E4E200C55918 /* LaunchScreen.swift in Sources */,
+				84F399F82CE234B200C55918 /* YTextField.swift in Sources */,
+				84F39A172CE237F800C55918 /* CostumTextFieldWithKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +756,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84F399F42CE2204200C55918 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SURYAKANTSHARMA/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		84F39A2F2CE3527300C55918 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84F399F52CE2204200C55918 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F399F42CE2204200C55918 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+		84F39A302CE3527300C55918 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F39A2F2CE3527300C55918 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		84F39A322CE3527300C55918 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F39A2F2CE3527300C55918 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84F399812CE1E04800C55918 /* Project object */;
 }
