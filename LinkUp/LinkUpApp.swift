@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct LinkUpApp: App {
+    @StateObject private var appViewModel = AppViewModel()
     var body: some Scene {
         WindowGroup {
-            LaunchScreen()
+            MainView()
+                .environmentObject(appViewModel)
         }
     }
 }

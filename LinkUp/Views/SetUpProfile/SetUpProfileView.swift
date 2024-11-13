@@ -5,6 +5,7 @@
 //  Created by Sardorbek Saydamatov on 12/11/24.
 //
 
+
 import SwiftUI
 
 struct SetUpProfileView: View {
@@ -12,6 +13,7 @@ struct SetUpProfileView: View {
     @State var lastName: String = ""
     @State private var selectedImage: UIImage? = nil
     @State private var isShowingImagePicker = false
+    @EnvironmentObject private var viewModel: AppViewModel
 
     var body: some View {
         VStack(spacing: 50) {
@@ -91,7 +93,7 @@ extension SetUpProfileView {
     
     private var submitButton: some View {
         SubmitButton(title: "Save", isIDisabled: firstName != "" ? false : true) {
-            
+            viewModel.currentView = .tabView
         }
     }
 }
