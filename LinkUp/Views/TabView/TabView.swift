@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct TabView: View {
+    @State private var selectedTab = 1
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+            SwiftUI.TabView(selection: $selectedTab) {
+                ContactsView()
+                    .tabItem {
+                        Text("Contacts")
+                        Image(systemName: "person.2")
+                    }
+                    .tag(0)
+                
+                ChatsView()
+                    .tabItem {
+                        Text("Chats")
+                        Image(systemName: "bubble")
+                    }
+                    .tag(1)
+                
+                MoreView()
+                    .tabItem {
+                        Text("More")
+                        Image(systemName: "ellipsis")
+                    }
+                    .tag(2)
+            }
+        }
 }
 
 #Preview {

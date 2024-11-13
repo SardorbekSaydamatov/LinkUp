@@ -11,27 +11,29 @@ struct ContactsView: View {
     @State private var searchText: String = ""
     
     var body: some View {
-        VStack {
-            
-        }
-        .searchable(text: $searchText)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Text("Constacts")
-                    .font(.title3)
-                    .bold()
+        NavigationStack {
+            VStack {
+                
             }
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    
-                } label: {
-                    Image(systemName: "plus")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 20, height: 20)
-                        .foregroundStyle(Color.primary)
+            .searchable(text: $searchText)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Text("Constacts")
+                        .font(.title3)
+                        .bold()
                 }
-
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "plus")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                            .foregroundStyle(Color.primary)
+                    }
+                    
+                }
             }
         }
     }
