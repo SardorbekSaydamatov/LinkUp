@@ -14,27 +14,23 @@ struct Contact: Identifiable {
 
 struct ChatsView: View {
     @State private var searchText: String = ""
-    @State private var contacts = [
-            Contact(name: "Alice"),
-            Contact(name: "Bob"),
-            Contact(name: "Charlie"),
-            Contact(name: "David"),
-            Contact(name: "Eve")
-        ]
-        
-        var filteredContacts: [Contact] {
-            // Filter the contacts based on the search text
-            if searchText.isEmpty {
-                return contacts
-            } else {
-                return contacts.filter { $0.name.lowercased().contains(searchText.lowercased()) }
-            }
-        }
+    
+    let mockDate: Date = {
+        var components = DateComponents()
+        components.year = 2024
+        components.month = 5
+        components.day = 26
+        return Calendar.current.date(from: components) ?? Date()
+    }()
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                List(filteredContacts) { contact in
-                    Text(contact.name)
+            ScrollView(showsIndicators: false) {
+                LazyVStack {
+                    ForEach(0...10, id: \.self) { index in
+                        ChatDetailsView(name: "Muhammadjon", lastName: "Tohirov", message: "asocna oasnca oaiunsc oansc ondco aosn oasnc onsc", image: UIImage(named: "photo"), date: mockDate, unreadMessage: "2", isOnline: true)
+                            .padding()
+                    }
                 }
             }
             .searchable(text: $searchText)
@@ -49,7 +45,7 @@ struct ChatsView: View {
                 }
             }
         }
-        }
+    }
 }
 
 #Preview {
@@ -66,8 +62,10 @@ extension ChatsView {
             } label: {
                 Image("newChat")
                     .resizable()
+                    .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 22, height: 22)
+                    .foregroundStyle(Color.primary)
             }
             
             Button {
@@ -75,8 +73,10 @@ extension ChatsView {
             } label: {
                 Image("filterChat")
                     .resizable()
+                    .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 26, height: 26)
+                    .foregroundStyle(Color.primary)
             }
         }
     }

@@ -28,6 +28,7 @@
 		84F39A3B2CE355D800C55918 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A3A2CE355D800C55918 /* MoreView.swift */; };
 		84F39A3D2CE355E000C55918 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A3C2CE355E000C55918 /* TabView.swift */; };
 		84F39A432CE4776700C55918 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A422CE4776700C55918 /* AppViewModel.swift */; };
+		84F39A952CE4AEE600C55918 /* ChatDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A942CE4AEE600C55918 /* ChatDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		84F39A3A2CE355D800C55918 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		84F39A3C2CE355E000C55918 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		84F39A422CE4776700C55918 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		84F39A942CE4AEE600C55918 /* ChatDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -232,9 +234,9 @@
 		84F39A352CE355A800C55918 /* TabViews */ = {
 			isa = PBXGroup;
 			children = (
-				84F39A362CE355B700C55918 /* ContactsView.swift */,
-				84F39A382CE355C400C55918 /* ChatsView.swift */,
-				84F39A3A2CE355D800C55918 /* MoreView.swift */,
+				84F39A912CE4AE7B00C55918 /* Contacts */,
+				84F39A922CE4AE8B00C55918 /* Chats */,
+				84F39A932CE4AE9500C55918 /* MoreView */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
@@ -245,6 +247,31 @@
 				84F39A422CE4776700C55918 /* AppViewModel.swift */,
 			);
 			path = AppViewModel;
+			sourceTree = "<group>";
+		};
+		84F39A912CE4AE7B00C55918 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A362CE355B700C55918 /* ContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		84F39A922CE4AE8B00C55918 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A382CE355C400C55918 /* ChatsView.swift */,
+				84F39A942CE4AEE600C55918 /* ChatDetailsView.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		84F39A932CE4AE9500C55918 /* MoreView */ = {
+			isa = PBXGroup;
+			children = (
+				84F39A3A2CE355D800C55918 /* MoreView.swift */,
+			);
+			path = MoreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +439,7 @@
 				84F39A372CE355B700C55918 /* ContactsView.swift in Sources */,
 				84F399E32CE1E4E200C55918 /* LaunchScreen.swift in Sources */,
 				84F399F82CE234B200C55918 /* YTextField.swift in Sources */,
+				84F39A952CE4AEE600C55918 /* ChatDetailsView.swift in Sources */,
 				84F39A172CE237F800C55918 /* CostumTextFieldWithKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
