@@ -14,6 +14,7 @@ struct Contact: Identifiable {
 
 struct ChatsView: View {
     @State private var searchText: String = ""
+    @State private var showDM: Bool = false
     
     let mockDate: Date = {
         var components = DateComponents()
@@ -30,8 +31,14 @@ struct ChatsView: View {
                     ForEach(0...10, id: \.self) { index in
                         ChatDetailsView(name: "Muhammadjon", lastName: "Tohirov", message: "asocna oasnca oaiunsc oansc ondco aosn oasnc onsc", image: UIImage(named: "photo"), date: mockDate, unreadMessage: "2", isOnline: true)
                             .padding()
+                            .onTapGesture {
+                                showDM = true
+                            }
                     }
                 }
+            }
+            .navigationDestination(isPresented: $showDM) {
+                DMView()
             }
             .searchable(text: $searchText)
             .toolbar {
