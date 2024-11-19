@@ -48,7 +48,7 @@ extension DMView {
                     }
                 }
             }
-            .scrollDismissesKeyboard(.interactively)
+            .scrollDismissesKeyboard(.immediately)
         }
     }
     
