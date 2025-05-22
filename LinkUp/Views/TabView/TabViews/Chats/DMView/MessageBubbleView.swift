@@ -33,4 +33,5 @@ struct MessageBubbleView: View {
 
 #Preview {
     MessageBubbleView(message: .init(text: "Hi there!", isSentByUser: true))
+        .padding(.horizontal)
 }

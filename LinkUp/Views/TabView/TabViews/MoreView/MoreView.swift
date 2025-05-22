@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct MoreView: View {
+    @EnvironmentObject var appViewModel: AppViewModel
     var body: some View {
         NavigationStack {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 VStack(spacing: 40) {
                     profileRow(name: "Sardorbek Saydamatov", number: "+99891 674-19-49") {
                         
@@ -43,17 +44,23 @@ struct MoreView: View {
                     row(title: "Invite Your Firends", image: "envelope") {
                         
                     }
-                }
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Text("More")
-                            .font(.title3)
-                            .bold()
+                    row(title: "Logout", image: "rectangle.portrait.and.arrow.right") {
+                        appViewModel.logOut()
                     }
                 }
             }
+            .safeAreaInset(edge: .bottom) {
+                Color.clear.frame(height: 20)
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Text("More")
+                        .font(.title3)
+                        .bold()
+                }
             }
         }
+    }
 }
 
 #Preview {

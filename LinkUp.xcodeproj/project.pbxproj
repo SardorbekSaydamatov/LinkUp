@@ -11,13 +11,14 @@
 		8413FA482CEB1A0E00CDD446 /* MessagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413FA472CEB1A0E00CDD446 /* MessagesModel.swift */; };
 		8413FA4C2CEB37B100CDD446 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413FA4B2CEB37B100CDD446 /* MessageBubbleView.swift */; };
 		8413FA4F2CEB3A8B00CDD446 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413FA4E2CEB3A8B00CDD446 /* UIView+Extensions.swift */; };
+		84B4331E2DC221CF004C31DF /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4331D2DC221CF004C31DF /* Checkbox.swift */; };
 		84F399BE2CE1E0E400C55918 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F399B72CE1E0E400C55918 /* Preview Assets.xcassets */; };
 		84F399BF2CE1E0E400C55918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F399B92CE1E0E400C55918 /* Assets.xcassets */; };
 		84F399C02CE1E0E400C55918 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399BA2CE1E0E400C55918 /* MainView.swift */; };
 		84F399C12CE1E0E400C55918 /* LinkUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399BC2CE1E0E400C55918 /* LinkUpApp.swift */; };
 		84F399E32CE1E4E200C55918 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399E22CE1E4E200C55918 /* LaunchScreen.swift */; };
 		84F399E82CE20EDF00C55918 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399E72CE20EDF00C55918 /* SubmitButton.swift */; };
-		84F399F12CE2159100C55918 /* EnterPhonenumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */; };
+		84F399F12CE2159100C55918 /* EnterPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399F02CE2159100C55918 /* EnterPhoneNumberView.swift */; };
 		84F399F62CE2204200C55918 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 84F399F52CE2204200C55918 /* CountryPicker */; };
 		84F399F82CE234B200C55918 /* YTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F399F72CE234B200C55918 /* YTextField.swift */; };
 		84F39A172CE237F800C55918 /* CostumTextFieldWithKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F39A162CE237F800C55918 /* CostumTextFieldWithKeyboard.swift */; };
@@ -57,6 +58,7 @@
 		8413FA472CEB1A0E00CDD446 /* MessagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesModel.swift; sourceTree = "<group>"; };
 		8413FA4B2CEB37B100CDD446 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
 		8413FA4E2CEB3A8B00CDD446 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		84B4331D2DC221CF004C31DF /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		84F399892CE1E04800C55918 /* LinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F3999A2CE1E04A00C55918 /* LinkUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F399A42CE1E04A00C55918 /* LinkUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +69,7 @@
 		84F399BC2CE1E0E400C55918 /* LinkUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkUpApp.swift; sourceTree = "<group>"; };
 		84F399E22CE1E4E200C55918 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		84F399E72CE20EDF00C55918 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
-		84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhonenumberView.swift; sourceTree = "<group>"; };
+		84F399F02CE2159100C55918 /* EnterPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneNumberView.swift; sourceTree = "<group>"; };
 		84F399F72CE234B200C55918 /* YTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTextField.swift; sourceTree = "<group>"; };
 		84F39A162CE237F800C55918 /* CostumTextFieldWithKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumTextFieldWithKeyboard.swift; sourceTree = "<group>"; };
 		84F39A182CE2381900C55918 /* CostumKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumKeyboardView.swift; sourceTree = "<group>"; };
@@ -242,8 +244,9 @@
 		84F399EF2CE2155300C55918 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				84F399F02CE2159100C55918 /* EnterPhonenumberView.swift */,
+				84F399F02CE2159100C55918 /* EnterPhoneNumberView.swift */,
 				84F39A282CE317B600C55918 /* OTPView.swift */,
+				84B4331D2DC221CF004C31DF /* Checkbox.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -472,9 +475,10 @@
 				84F399C02CE1E0E400C55918 /* MainView.swift in Sources */,
 				8413FA482CEB1A0E00CDD446 /* MessagesModel.swift in Sources */,
 				84F399E82CE20EDF00C55918 /* SubmitButton.swift in Sources */,
+				84B4331E2DC221CF004C31DF /* Checkbox.swift in Sources */,
 				84F39A392CE355C400C55918 /* ChatsView.swift in Sources */,
 				84F39A192CE2381900C55918 /* CostumKeyboardView.swift in Sources */,
-				84F399F12CE2159100C55918 /* EnterPhonenumberView.swift in Sources */,
+				84F399F12CE2159100C55918 /* EnterPhoneNumberView.swift in Sources */,
 				84F399C12CE1E0E400C55918 /* LinkUpApp.swift in Sources */,
 				84F39A292CE317B600C55918 /* OTPView.swift in Sources */,
 				84F39A3B2CE355D800C55918 /* MoreView.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 import CountryPicker
 
-struct EnterPhonenumberView: View {
+struct EnterPhoneNumberView: View {
     @State private var country = Country(countryCode: "UZ")
     @State private var showCountryList: Bool = false
     @State var phoneNumber: String = ""
@@ -39,11 +39,11 @@ struct EnterPhonenumberView: View {
 }
 
 #Preview {
-    EnterPhonenumberView()
+    EnterPhoneNumberView()
 }
 
 
-extension EnterPhonenumberView {
+extension EnterPhoneNumberView {
     private var headerSection: some View {
         VStack {
             Text("Enter Your Phone Number")

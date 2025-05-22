@@ -10,6 +10,7 @@ import SwiftUI
 
 enum AppView {
     case launchScreen
+    case enterPhoneNumber
     case tabView
 }
 
@@ -35,7 +36,7 @@ class AppViewModel: ObservableObject {
     
     func logOut() {
         withAnimation {
-            currentView = .launchScreen
+            currentView = .enterPhoneNumber
         }
     }
 }

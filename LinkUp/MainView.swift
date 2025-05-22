@@ -15,6 +15,11 @@ struct MainView: View {
             if appViewModel.currentView == .launchScreen {
                 LaunchScreen()
                     .transition(.scale)
+            } else if appViewModel.currentView == .enterPhoneNumber {
+                NavigationStack {
+                    EnterPhoneNumberView()
+                        .transition(.scale)
+                }
             } else {
                 TabView()
                     .transition(.slide)
