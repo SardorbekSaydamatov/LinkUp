@@ -35,7 +35,7 @@ struct LaunchScreen: View {
             }
             .padding(.horizontal)
             .navigationDestination(isPresented: $getStarted) {
-                EnterPhonenumberView()
+                EnterPhoneNumberView()
                     .navigationBarBackButtonHidden()
             }
         }

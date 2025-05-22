@@ -11,6 +11,7 @@ struct YTextField: View {
     @Binding var text: String
     var height: CGFloat = 48
     var placeholder: String = "Enter your text"
+    var disabled: Bool = false
     var body: some View {
         TextField(placeholder, text: $text)
             .frame(maxWidth: .infinity)
@@ -20,6 +21,7 @@ struct YTextField: View {
                 RoundedRectangle(cornerRadius: 6)
                     .foregroundStyle(.secondary.opacity(0.1)))
             .scrollDismissesKeyboard(.immediately)
+            .disabled(disabled)
     }
 }
 
